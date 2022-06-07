@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+.container{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+#moniter{
+    width: 480px;
+    height: 50px;
+    font-size: 40px;
+    padding: 0px 10px 10px ;
+    background-color: black;
+    color: #fff;
+    text-align: right;
+}
+
+.btn{
+    display: inline-block;
+    height: 40px;
+    font-size: 25px;
+    width: 24%;
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10%;
+    background: rgb(230, 229, 229);
+}
+
+
+.btnBig{
+    width: 49% !important; 
+}
+
+/*ボタンの上にカーソルが乗った時に追加せれ、色が変わる*/
+.bunColor{
+    background: rgb(131, 130, 130) !important;
+}
+
