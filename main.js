@@ -6,7 +6,7 @@ $(document).ready(function(){
     $(".btnNum").click(function(){
         /*02や07のような表記にならないようにする*/
         let moniter=$("#moniter").text();
-        if(moniter==0){
+        if(moniter==="0"){                        /*==== 修正　moniter==0　→　moniter==="0" ==*/ 
             $("#moniter").empty();}
             
         let num= $(this).text();
